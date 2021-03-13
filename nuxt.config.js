@@ -15,6 +15,11 @@ export default {
       { hid: 'description', name: 'description', content: 'Personal blog for sharing my challenges in development.' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://pssr.dev',
+      },
+      {
         hid: 'og:title',
         property: 'og:title',
         content: 'pssr.dev',
