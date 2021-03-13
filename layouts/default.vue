@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="antialiased">
     <base-nav-bar />
     <div class="px-3 mx-auto my-24 max-w-xl lg:max-w-2xl">
       <Nuxt />

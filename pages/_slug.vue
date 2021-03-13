@@ -33,7 +33,7 @@ export default Vue.extend({
 }
 
 .nuxt-content h1 {
-  @apply font-bold text-4xl mt-8 text-gray-800;
+  @apply font-bold text-4xl my-6 text-gray-800;
 }
 
 .nuxt-content h1 > strong {
@@ -41,7 +41,7 @@ export default Vue.extend({
 }
 
 .nuxt-content > h2 {
-  @apply text-gray-500 text-base;
+  @apply text-gray-500 text-base ml-1;
 }
 
 .nuxt-content h3 {
