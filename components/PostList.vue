@@ -6,8 +6,10 @@
 </template>
 
 <script>
+import Vue from 'vue'
 import PostListItem from '@/components/PostListItem'
-export default {
+
+export default Vue.extend({
   name: 'PostList',
   components: {
     PostListItem,
@@ -18,5 +20,5 @@ export default {
       required: true,
     },
   },
-}
+})
 </script>

@@ -20,22 +20,24 @@
 </template>
 
 <script>
-export default {
+import Vue from 'vue'
+
+export default Vue.extend({
   name: 'PostListItem',
   props: {
     post: {
       type: Object,
-      required: true
-    }
+      required: true,
+    },
   },
   computed: {
-    formattedDate () {
+    formattedDate() {
       const options = { day: '2-digit', month: 'short', year: 'numeric' }
       return new Date(this.post.publishedAt).toLocaleDateString(
         'en-US',
-        options
+        options,
       )
-    }
-  }
-}
+    },
+  },
+})
 </script>
