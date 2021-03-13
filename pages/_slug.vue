@@ -92,6 +92,6 @@ export default Vue.extend({
 }
 
 .nuxt-content-highlight {
-  @apply text-base;
+  @apply text-xs;
 }
 </style>
