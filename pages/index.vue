@@ -9,9 +9,9 @@ import Vue from 'vue'
 
 export default Vue.extend({
   name: 'Page',
-  async asyncData ({ $content }) {
+  async asyncData({ $content }) {
     const pages = await $content('').fetch()
     return { pages }
-  }
+  },
 })
 </script>

@@ -1,5 +1,7 @@
 {
   "semi": false,
   "singleQuote": true,
-  "trailingComma": "all"
+  "trailingComma": "all",
+  "htmlWhitespaceSensitivity": "ignore",
+  "parser": "vue"
 }

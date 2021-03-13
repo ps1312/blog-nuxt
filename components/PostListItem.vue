@@ -1,9 +1,9 @@
 <template>
   <li class="p-4 mb-4 rounded-md list-none">
     <div class="flex flex-col">
-      <strong class="text-2xl leading-none text-gray-800">{{
-        post.title
-      }}</strong>
+      <strong class="text-2xl leading-none text-gray-800">
+        {{ post.title }}
+      </strong>
 
       <div class="flex justify-between text-sm text-gray-400 my-1">
         <span>Published on {{ formattedDate }}</span>
@@ -12,9 +12,9 @@
 
       <span class="my-2">{{ post.postContentSynopsys }}</span>
 
-      <NuxtLink :to="'/' + post.slug" class="my-4 text-indigo-600">
+      <nuxt-link :to="'/' + post.slug" class="my-4 text-indigo-600">
         Read more...
-      </NuxtLink>
+      </nuxt-link>
     </div>
   </li>
 </template>
