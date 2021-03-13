@@ -4,14 +4,33 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'blog-nuxt',
+    title: 'pssr.dev',
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'title', name: 'title', content: 'pssr.dev' },
+      { hid: 'description', name: 'description', content: 'Personal blog for sharing my challenges in development.' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'pssr.dev',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'Personal blog for sharing my challenges in development.',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: '/logo.png',
+      },
+      { property: 'og:image:width', content: '740' },
+      { property: 'og:image:height', content: '300' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },

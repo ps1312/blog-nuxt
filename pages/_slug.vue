@@ -2,7 +2,7 @@
   <nuxt-content :document="page" />
 </template>
 
-<script lang="ts">
+<script>
 import Vue from 'vue'
 
 export default Vue.extend({
@@ -11,6 +11,17 @@ export default Vue.extend({
     const page = await $content(params.slug).fetch()
 
     return { page }
+  },
+  head() {
+    return {
+      title: this.page.title,
+      meta: [
+        {
+          name: 'description',
+          content: this.page.postContentSynopsys,
+        },
+      ],
+    }
   },
 })
 </script>
