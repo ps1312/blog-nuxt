@@ -56,10 +56,6 @@ export default Vue.extend({
   @apply bg-gray-200 text-sm px-2 py-1 rounded-sm;
 }
 
-.nuxt-content .hljs {
-  @apply text-sm p-8 my-8 rounded-md;
-}
-
 .nuxt-content ul {
   @apply list-disc ml-6 mt-6 sm:ml-16;
 }
@@ -82,5 +78,9 @@ export default Vue.extend({
 
 .nuxt-content hr {
   @apply border-t-4 mt-8;
+}
+
+.nuxt-content-highlight {
+  @apply text-base;
 }
 </style>
