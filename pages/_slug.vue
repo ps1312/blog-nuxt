@@ -17,16 +17,8 @@ export default Vue.extend({
       title: this.page.title,
       meta: [
         {
-          name: 'og:description',
+          name: 'description',
           content: this.page.postContentSynopsys,
-        },
-        {
-          name: 'og:title',
-          content: this.page.title,
-        },
-        {
-          property: 'og:url',
-          content: 'https://pssr.dev/seo-url',
         },
       ],
     }
