@@ -1,3 +1,10 @@
+const createSitemapRoutes = async() => {
+  const { $content } = require('@nuxt/content')
+  const files = await $content({ deep: true }).only(['path']).fetch()
+
+  return files.map(file => (file.path === '/index' ? '/' : file.path))
+}
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -28,10 +35,20 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxt/content'],
+  modules: [
+    '@nuxt/content',
+    '@nuxtjs/sitemap',
+  ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  sitemap: {
+    hostname: 'https://www.pssr.dev',
+    routes() {
+      return createSitemapRoutes()
+    },
+  },
 
   content: {
     markdown: {
