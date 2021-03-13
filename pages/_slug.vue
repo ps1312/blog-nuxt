@@ -17,6 +17,7 @@ export default Vue.extend({
       title: this.page.title,
       meta: [
         {
+          hid: 'description',
           name: 'description',
           content: this.page.postContentSynopsys,
         },
