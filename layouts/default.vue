@@ -14,14 +14,10 @@ export default Vue.extend({
   name: 'DefaultLayout',
   head() {
     return {
+      title: 'pssr.dev',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        {
-          hid: 'title',
-          name: 'title',
-          content: 'pssr.dev',
-        },
         {
           hid: 'description',
           name: 'description',

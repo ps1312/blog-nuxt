@@ -15,6 +15,7 @@ export default Vue.extend({
   head() {
     return {
       title: this.page.title,
+      titleTemplate: '%s | pssr.dev',
       meta: [
         {
           hid: 'description',

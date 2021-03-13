@@ -5,6 +5,9 @@
         A word about this blog 📄
       </span>
       <p class="leading-8 mt-4 text-lg text-gray-800">
+        Hi, my name is Paulo ✋, and I'm from Brazil.
+      </p>
+      <p class="leading-8 mt-4 text-lg text-gray-800">
         This blog is primarily being build by me to practice and learn more
         about Vue.js and deepen my knowledge in CSS and HTML. I'm also
         documenting the development in my
@@ -76,5 +79,8 @@ import Vue from 'vue'
 
 export default Vue.extend({
   name: 'PageAbout',
+  head: {
+    titleTemplate: 'About me | pssr.dev',
+  },
 })
 </script>
