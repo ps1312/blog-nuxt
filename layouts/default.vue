@@ -18,17 +18,14 @@ export default Vue.extend({
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
-          hid: 'title',
           name: 'title',
           content: 'pssr.dev',
         },
         {
-          hid: 'description',
           name: 'description',
           content: 'Personal blog for sharing my challenges in development.',
         },
         {
-          hid: 'og:image',
           property: 'og:image',
           content: '/logo.png',
         },
