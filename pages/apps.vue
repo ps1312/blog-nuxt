@@ -45,7 +45,7 @@
     </li>
 
     <li class="flex flex-col space-y-4">
-      <span class="text-3xl font-bold">nearby places 📍</span>
+      <span class="text-3xl font-bold">Nearby places 📍</span>
       <span class="text-lg leading-relaxed">
         React.JS app with authentication using REQ|RES. It fetches nearby places
         (Google Maps) from user based on their location. The user can also save
