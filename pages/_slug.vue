@@ -35,6 +35,7 @@ export default Vue.extend({
   display: flex;
   margin: auto;
   border-radius: 5px;
+  margin: 20px 0;
 }
 
 .nuxt-content {
@@ -54,7 +55,7 @@ export default Vue.extend({
 }
 
 .nuxt-content > h2 {
-  @apply text-gray-500 text-base ml-1;
+  @apply text-gray-400 font-medium text-lg ml-1 -mt-4 mb-2;
 }
 
 .nuxt-content h3 {
@@ -62,7 +63,7 @@ export default Vue.extend({
 }
 
 .nuxt-content p {
-  @apply leading-9 mt-6;
+  @apply leading-9 mt-6 text-xl text-gray-500;
 }
 
 .nuxt-content > p > code {
@@ -70,11 +71,11 @@ export default Vue.extend({
 }
 
 .nuxt-content ul {
-  @apply list-disc ml-6 mt-6 sm:ml-16;
+  @apply list-disc ml-6 mt-6 sm:ml-16 text-xl text-gray-500 space-y-4;
 }
 
 .nuxt-content > ul > li > code {
-  @apply bg-gray-200 text-sm px-2 py-1 rounded-sm;
+  @apply bg-gray-200 text-sm px-2 py-1 rounded-sm text-xl text-gray-500;
 }
 
 .nuxt-content a {
@@ -82,18 +83,18 @@ export default Vue.extend({
 }
 
 .nuxt-content > ol {
-  @apply list-decimal ml-4 mt-4 pr-8 sm:ml-16;
+  @apply list-decimal ml-4 mt-4 pr-8 text-xl sm:ml-16 text-gray-500 space-y-4;
 }
 
 .nuxt-content > ol > li > code {
-  @apply bg-gray-200 text-sm px-2 py-1 rounded-sm;
+  @apply bg-gray-200 text-sm px-2 py-1 rounded-sm text-xl text-gray-500;
 }
 
 .nuxt-content hr {
-  @apply border-t-4 mt-8;
+  @apply border-t-4 mt-6;
 }
 
 .nuxt-content-highlight {
-  @apply text-sm;
+  @apply text-sm my-10;
 }
 </style>
