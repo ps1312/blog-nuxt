@@ -50,7 +50,16 @@
         React.JS app with authentication using REQ|RES. It fetches nearby places
         (Google Maps) from user based on their location. The user can also save
         a location and give it a comment and a rating, these informations are
-        stored locally.
+        stored locally. To login it uses the REQ|RES API and the following
+        credential can be used:
+        <ul class="mt-4 ml-6">
+          <li>
+            <strong>eve.holt@reqres.in</strong>
+          </li>
+          <li>
+            <strong>cityslicka</strong>
+          </li>
+        </ul>
       </span>
       <div class="inline-flex space-x-4">
         <a
