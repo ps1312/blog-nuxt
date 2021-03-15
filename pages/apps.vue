@@ -32,12 +32,12 @@
       <div class="inline-flex w-1/2 h-1/2">
         <img
           class="object-contain"
-          src="feed_web.png"
+          src="/feed_web.png"
           alt="feed web showcase"
         >
         <img
           class="object-contain"
-          src="listings_web.png"
+          src="/listings_web.png"
           alt="listings web showcase"
         >
       </div>
@@ -74,12 +74,12 @@
       <div class="inline-flex w-1/2 h-1/2">
         <img
           class="object-contain"
-          src="nearby_places_map.png"
+          src="/nearby_places_map.png"
           alt="Nearby places app map"
         >
         <img
           class="object-contain"
-          src="nearby_places_modal.png"
+          src="/nearby_places_modal.png"
           alt="Nearby places app comments modal"
         >
       </div>
