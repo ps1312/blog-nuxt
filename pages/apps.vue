@@ -18,6 +18,15 @@
       </a>
     </li>
 
+    <div class="w-full h-1 bg-indigo-500" />
+
+    <div class="w-full bg-indigo-700 p-4 rounded-md opacity-50">
+      <span class="text-white font-bold">
+        These apps are hosted on Heroku and maybe hibernating, just wait a
+        little for them to wake up.
+      </span>
+    </div>
+
     <li class="flex flex-col space-y-4">
       <span class="text-3xl font-bold">devto-feed 💻</span>
       <div class="inline-flex w-1/2 h-1/2">
