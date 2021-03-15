@@ -33,12 +33,12 @@
         <img
           class="object-contain"
           src="feed_web.png"
-          alt="Nearby places app map"
+          alt="feed web showcase"
         />
         <img
           class="object-contain"
           src="listings_web.png"
-          alt="Nearby places app map"
+          alt="listings web showcase"
         />
       </div>
       <span class="text-lg leading-relaxed">
@@ -80,7 +80,7 @@
         <img
           class="object-contain"
           src="nearby_places_modal.png"
-          alt="Nearby places app map"
+          alt="Nearby places app comments modal"
         />
       </div>
 
