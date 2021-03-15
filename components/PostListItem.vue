@@ -5,16 +5,18 @@
         {{ post.title }}
       </strong>
 
-      <div class="flex justify-between text-base text-gray-400 my-3">
+      <div
+        class="flex justify-between text-base font-medium text-gray-400 my-2"
+      >
         <span>Published on {{ formattedDate }}</span>
         <span class="pl-2">{{ post.readTimeEstimate }}</span>
       </div>
 
-      <span class="text-lg text-gray-800 my-3">
+      <span class="text-lg text-gray-800">
         {{ post.postContentSynopsys }}
       </span>
 
-      <nuxt-link :to="'/' + post.slug" class="my-4 text-indigo-600">
+      <nuxt-link :to="'/' + post.slug" class="mt-8 text-indigo-600">
         Read more...
       </nuxt-link>
     </div>
