@@ -42,7 +42,7 @@
             href="/curriculo_pssr.pdf"
             class="text-lg font-semibold ml-8 text-white font-semibold rounded px-2 hover:bg-indigo-400 inline-flex items-center"
           >
-            Resume
+            Résumé
 
             <base-icon class="w-6 h-6 text-white ml-2" icon="external-link" />
           </a>
