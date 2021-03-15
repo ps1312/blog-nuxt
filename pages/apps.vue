@@ -7,7 +7,11 @@
         hosted in Netlify. It uses nuxt/content and was developed with SEO in
         mind and i'ts actually appearing on Google 🙌.
       </span>
-      <a href="">
+      <a
+        href="https://github.com/ps1312/blog-nuxt"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <span class="border-b-2 border-indigo-600 text-indigo-600 font-bold">
           View source
         </span>
@@ -16,6 +20,18 @@
 
     <li class="flex flex-col space-y-4">
       <span class="text-3xl font-bold">devto-feed 💻</span>
+      <div class="inline-flex w-1/2 h-1/2">
+        <img
+          class="object-contain"
+          src="feed_web.png"
+          alt="Nearby places app map"
+        />
+        <img
+          class="object-contain"
+          src="listings_web.png"
+          alt="Nearby places app map"
+        />
+      </div>
       <span class="text-lg leading-relaxed">
         Dev.to API consumer made with Nuxt.js. It makes HTTP requests so i'ts
         hosted on Heroku instead of Netlify. The "Listings" page have an awesome
@@ -46,6 +62,19 @@
 
     <li class="flex flex-col space-y-4">
       <span class="text-3xl font-bold">Nearby places 📍</span>
+      <div class="inline-flex w-1/2 h-1/2">
+        <img
+          class="object-contain"
+          src="nearby_places_map.png"
+          alt="Nearby places app map"
+        />
+        <img
+          class="object-contain"
+          src="nearby_places_modal.png"
+          alt="Nearby places app map"
+        />
+      </div>
+
       <span class="text-lg leading-relaxed">
         React.JS app with authentication using REQ|RES. It fetches nearby places
         (Google Maps) from user based on their location. The user can also save
