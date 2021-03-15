@@ -1,7 +1,7 @@
 ---
 title: "Build A Vue.js Markdown Renderer Component"
 readTimeEstimate: "5 minutes read."
-publishedAt: Wed Mar 10 2021 00:00:00 GMT-0300
+publishedAt: Wed Mar 01 2021 00:00:00 GMT-0300
 postContentSynopsys: "How I’ve created a component in Vue to compile and render my saved posts in HTML."
 slug: "build-a-vuejs-markdown-renderer-component"
 ---

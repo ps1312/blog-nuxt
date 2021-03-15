@@ -1,7 +1,7 @@
 ---
 title: Testing a Component in Vue.js
 readTimeEstimate: "4 minutes read."
-publishedAt: Mon Mar 01 2021 00:00:00 GMT-0300
+publishedAt: Mon Mar 10 2021 00:00:00 GMT-0300
 postContentSynopsys: "I need to create a Vue.js component that displays a series of Post objects with certain informations. This is how i did it."
 slug: "testing-a-component-in-vuejs"
 ---
