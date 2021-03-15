@@ -18,7 +18,7 @@
       </a>
     </li>
 
-    <div class="w-full h-1 bg-indigo-500" />
+    <div class="w-full h-1 bg-indigo-500 rounded-full" />
 
     <div class="w-full bg-indigo-700 p-4 rounded-md opacity-50">
       <span class="text-white font-bold">
