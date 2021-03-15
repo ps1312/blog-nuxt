@@ -31,12 +31,20 @@
           >
             About
           </nuxt-link>
+          <nuxt-link
+            class="text-lg font-semibold ml-8 text-white font-semibold rounded px-2 hover:bg-indigo-400"
+            to="/apps"
+          >
+            Apps
+          </nuxt-link>
           <a
             download="curriculo_pssr.pdf"
             href="/curriculo_pssr.pdf"
-            class="text-lg font-semibold ml-8 text-white font-semibold rounded px-2 hover:bg-indigo-400"
+            class="text-lg font-semibold ml-8 text-white font-semibold rounded px-2 hover:bg-indigo-400 inline-flex items-center"
           >
             Resume
+
+            <base-icon class="w-6 h-6 text-white ml-2" icon="external-link" />
           </a>
         </div>
         <div class="inline-flex">
