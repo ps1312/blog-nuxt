@@ -22,7 +22,7 @@
 
     <div class="w-full bg-indigo-700 p-4 rounded-md opacity-50">
       <span class="text-white font-bold">
-        These apps are hosted on Heroku and maybe hibernating, just wait a
+        These apps are hosted on Heroku and maybe are hibernating, just wait a
         little for them to wake up.
       </span>
     </div>
@@ -34,12 +34,12 @@
           class="object-contain"
           src="feed_web.png"
           alt="feed web showcase"
-        />
+        >
         <img
           class="object-contain"
           src="listings_web.png"
           alt="listings web showcase"
-        />
+        >
       </div>
       <span class="text-lg leading-relaxed">
         Dev.to API consumer made with Nuxt.js. It makes HTTP requests so i'ts
@@ -76,12 +76,12 @@
           class="object-contain"
           src="nearby_places_map.png"
           alt="Nearby places app map"
-        />
+        >
         <img
           class="object-contain"
           src="nearby_places_modal.png"
           alt="Nearby places app comments modal"
-        />
+        >
       </div>
 
       <span class="text-lg leading-relaxed">
