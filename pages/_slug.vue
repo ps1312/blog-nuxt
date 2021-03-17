@@ -39,7 +39,7 @@ export default Vue.extend({
 }
 
 .nuxt-content {
-  @apply text-gray-700 text-lg leading-loose;
+  @apply text-gray-700 text-lg leading-loose break-words;
 }
 
 .nuxt-content strong {
@@ -55,7 +55,7 @@ export default Vue.extend({
 }
 
 .nuxt-content > h2 {
-  @apply text-gray-400 font-medium text-lg ml-1 -mt-4 mb-2;
+  @apply text-gray-400 font-medium text-lg ml-1 mb-2 leading-tight;
 }
 
 .nuxt-content h3 {
@@ -79,7 +79,7 @@ export default Vue.extend({
 }
 
 .nuxt-content a {
-  @apply border-b-2 border-indigo-600 break-words text-indigo-600;
+  @apply border-b-2 border-indigo-600 text-indigo-600;
 }
 
 .nuxt-content > ol {
@@ -87,7 +87,7 @@ export default Vue.extend({
 }
 
 .nuxt-content > ol > li > code {
-  @apply bg-gray-200 text-sm px-2 py-1 rounded-sm text-xl text-gray-500;
+  @apply bg-gray-200 text-sm px-2 py-1 rounded-sm text-xl text-gray-500 flex-wrap;
 }
 
 .nuxt-content hr {
@@ -95,6 +95,6 @@ export default Vue.extend({
 }
 
 .nuxt-content-highlight {
-  @apply text-sm my-10;
+  @apply md:text-sm my-10;
 }
 </style>
